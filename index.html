@@ -4,33 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sivastaffing agency</title>
-    <meta
-      name="description"
-      content="NorthStar Staffing helps businesses hire faster and build stronger teams with flexible staffing, direct placement, and workforce solutions."
-    />
+    <meta name="description" content="sivastaffing agency — staffing solutions for companies and professionals." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container nav-wrap">
-        <div class="brand">
-          <span class="brand-mark">N</span>
-          <span>NorthStar</span>
-        </div>
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#solutions">Solutions</a>
-          <a href="#industries">Industries</a>
-          <a href="#process">Process</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contact">Contact</a>
+      <div class="container header-inner">
+        <a class="brand" href="index.html">sivastaffing agency</a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav id="mainNav" class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
         </nav>
-        <a class="btn btn-primary" href="#contact">Book a consult</a>
       </div>
     </header>
 
@@ -40,13 +30,10 @@
           <div class="hero-copy">
             <p class="eyebrow">People-first hiring solutions</p>
             <h1>Staff the future. Grow today.</h1>
-            <p class="lead">
-              We connect companies with dependable talent and help professionals find
-              work that fits their skills, goals, and lifestyle.
-            </p>
+            <p class="lead">We connect companies with dependable talent and help professionals find work that fits their skills, goals, and lifestyle.</p>
             <div class="cta-row">
-              <a class="btn btn-primary" href="#contact">Hire talent</a>
-              <a class="btn btn-secondary" href="#solutions">Explore services</a>
+              <a class="btn btn-primary" href="contact.html">Hire talent</a>
+              <a class="btn btn-secondary" href="services.html">Explore services</a>
             </div>
             <ul class="hero-trust" aria-label="Key outcomes">
               <li>48-hour candidate shortlist</li>
@@ -54,7 +41,7 @@
               <li>3,200+ placements</li>
             </ul>
           </div>
-          <div class="hero-card" aria-label="Business metrics panel">
+          <aside class="hero-card" aria-label="Business metrics panel">
             <div class="metric-card">
               <span class="label">Active roles</span>
               <strong>1,240</strong>
@@ -68,35 +55,23 @@
               <strong>4.9/5</strong>
             </div>
             <div class="mini-chart" aria-hidden="true">
-              <span style="height: 25%"></span>
-              <span style="height: 45%"></span>
-              <span style="height: 60%"></span>
-              <span style="height: 82%"></span>
-              <span style="height: 100%"></span>
-              <span style="height: 90%"></span>
+              <span style="height:25%"></span>
+              <span style="height:45%"></span>
+              <span style="height:60%"></span>
+              <span style="height:82%"></span>
+              <span style="height:100%"></span>
+              <span style="height:90%"></span>
             </div>
-          </div>
+          </aside>
         </div>
       </section>
 
       <section class="stats-bar">
         <div class="container stats-grid">
-          <div>
-            <strong>15+</strong>
-            <span>Years of staffing expertise</span>
-          </div>
-          <div>
-            <strong>52</strong>
-            <span>Industries served</span>
-          </div>
-          <div>
-            <strong>24/7</strong>
-            <span>Support for on-site teams</span>
-          </div>
-          <div>
-            <strong>12k+</strong>
-            <span>Qualified candidates in network</span>
-          </div>
+          <div><strong>15+</strong><span>Years of staffing expertise</span></div>
+          <div><strong>52</strong><span>Industries served</span></div>
+          <div><strong>24/7</strong><span>Support for on-site teams</span></div>
+          <div><strong>12k+</strong><span>Qualified candidates in network</span></div>
         </div>
       </section>
 
@@ -107,40 +82,16 @@
             <h2>Flexible staffing built for speed, quality, and scale.</h2>
           </div>
           <div class="card-grid">
-            <article class="info-card">
-              <div class="icon">01</div>
-              <h3>Temporary Staffing</h3>
-              <p>
-                Fill urgent roles with vetted professionals who can step in quickly and
-                perform from day one.
-              </p>
-            </article>
-            <article class="info-card">
-              <div class="icon">02</div>
-              <h3>Temp-to-Hire</h3>
-              <p>
-                Evaluate fit before making a permanent commitment with low-risk, proven
-                placement models.
-              </p>
-            </article>
-            <article class="info-card">
-              <div class="icon">03</div>
-              <h3>Direct Placement</h3>
-              <p>
-                Source, assess, and secure high-impact leaders and specialists for your
-                most critical roles.
-              </p>
-            </article>
+            <article class="info-card"><div class="icon">01</div><h3>Temporary Staffing</h3><p>Fill urgent roles with vetted professionals who can step in quickly and perform from day one.</p></article>
+            <article class="info-card"><div class="icon">02</div><h3>Temp-to-Hire</h3><p>Evaluate fit before making a permanent commitment with low-risk, proven placement models.</p></article>
+            <article class="info-card"><div class="icon">03</div><h3>Direct Placement</h3><p>Source, assess, and secure high-impact leaders and specialists for your most critical roles.</p></article>
           </div>
         </div>
       </section>
 
       <section id="industries" class="section alt-bg">
         <div class="container">
-          <div class="section-heading narrow">
-            <p class="eyebrow">Industries we support</p>
-            <h2>Expert recruiting across the sectors that keep business moving.</h2>
-          </div>
+          <div class="section-heading narrow"><p class="eyebrow">Industries we support</p><h2>Expert recruiting across the sectors that keep business moving.</h2></div>
           <div class="industry-grid">
             <div class="industry-pill">Healthcare</div>
             <div class="industry-pill">Manufacturing</div>
@@ -156,101 +107,56 @@
 
       <section id="process" class="section">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Our approach</p>
-            <h2>A simple process, built for results.</h2>
-          </div>
+          <div class="section-heading"><p class="eyebrow">Our approach</p><h2>A simple process, built for results.</h2></div>
           <div class="timeline">
-            <div class="timeline-item">
-              <span class="step">1</span>
-              <div>
-                <h3>Discover</h3>
-                <p>We learn your goals, workforce challenges, and hiring timeline.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span class="step">2</span>
-              <div>
-                <h3>Source</h3>
-                <p>Our recruiters screen top candidates to match skills, culture, and urgency.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span class="step">3</span>
-              <div>
-                <h3>Deliver</h3>
-                <p>We present qualified talent, coordinate interviews, and streamline onboarding.</p>
-              </div>
-            </div>
+            <div class="timeline-item"><span class="step">1</span><div><h3>Discover</h3><p>We learn your goals, workforce challenges, and hiring timeline.</p></div></div>
+            <div class="timeline-item"><span class="step">2</span><div><h3>Source</h3><p>Our recruiters screen top candidates to match skills, culture, and urgency.</p></div></div>
+            <div class="timeline-item"><span class="step">3</span><div><h3>Deliver</h3><p>We present qualified talent, coordinate interviews, and streamline onboarding.</p></div></div>
           </div>
         </div>
       </section>
 
       <section id="testimonials" class="section alt-bg">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Client feedback</p>
-            <h2>Trusted by businesses that need dependable talent.</h2>
-          </div>
+          <div class="section-heading"><p class="eyebrow">Client feedback</p><h2>Trusted by businesses that need dependable talent.</h2></div>
           <div class="testimonial-grid">
-            <blockquote class="quote-card">
-              “NorthStar helped us fill three critical operations roles in under two weeks,
-              and the quality of talent was exceptional.”
-              <footer>
-                <strong>Maria Chen</strong>
-                <span>VP Operations, Brightline Manufacturing</span>
-              </footer>
-            </blockquote>
-            <blockquote class="quote-card">
-              “Their team understood our hiring needs immediately and gave us a steady stream
-              of qualified candidates with very little ramp-up.”
-              <footer>
-                <strong>Andre Lewis</strong>
-                <span>Director of People, Harbor Health Group</span>
-              </footer>
-            </blockquote>
+            <blockquote class="quote-card">“sivastaffing helped us fill three critical operations roles in under two weeks, and the quality of talent was exceptional.”<footer><strong>Maria Chen</strong><span>VP Operations, Brightline Manufacturing</span></footer></blockquote>
+            <blockquote class="quote-card">“Their team understood our hiring needs immediately and gave us a steady stream of qualified candidates with very little ramp-up.”<footer><strong>Andre Lewis</strong><span>Director of People, Harbor Health Group</span></footer></blockquote>
           </div>
         </div>
       </section>
 
       <section class="cta-band">
-        <div class="container cta-inner">
-          <div>
-            <p class="eyebrow">Need help hiring?</p>
-            <h2>Build a stronger workforce with the right people.</h2>
-          </div>
-          <a class="btn btn-primary" href="#contact">Talk to an expert</a>
-        </div>
+        <div class="container cta-inner"><div><p class="eyebrow">Need help hiring?</p><h2>Build a stronger workforce with the right people.</h2></div><a class="btn btn-primary" href="contact.html">Talk to an expert</a></div>
       </section>
     </main>
 
-    <footer id="contact" class="site-footer">
+    <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <div class="brand footer-brand">
-            <span class="brand-mark">N</span>
-            <span>NorthStar</span>
-          </div>
-          <p>
-            Staffing solutions for businesses and professionals who want to move forward with
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="index.html">sivastaffing agency</a>
-        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
-        <nav id="mainNav" class="main-nav">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
+          <div class="brand footer-brand">sivastaffing agency</div>
+          <p>Staffing solutions for businesses and professionals who want to move forward with confidence.</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>hello@sivastaffing.com</li>
+            <li>(415) 555-0148</li>
+            <li>210 Harbor Avenue, Suite 450</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Hours</h3>
+          <ul>
+            <li>Mon–Fri: 8:00 AM–6:00 PM</li>
+            <li>Sat: By appointment</li>
             <li>Sun: Closed</li>
           </ul>
         </div>
       </div>
-      <div class="container footer-bottom">
-            <h1>sivastaffing agency</h1>
-            <p class="tagline">Connecting talented people with companies that need them.</p>
-            <p><a class="btn" href="contact.html">Get in touch</a></p>
-      <div class="container footer-bottom">
+      <div class="container footer-bottom">© <span id="year"></span> sivastaffing agency — <a href="privacy.html">Privacy</a></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
